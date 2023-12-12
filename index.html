@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Typing Test</title>
+ <link rel="stylesheet" href="home.css">
+    
+</head>
+<body>
+    <div id="blur">
+<header>
+    <ul>
+        <li class="webName">TypeKro </li><li class="domain">.com</li>
+        <li>  
+         <div class="custom-select" style="width:150px;">
+            <select>
+                <option value="0" style="display:none;">Students</option>
+                <option value="1">Typing Test</option>
+                <option value="2">Typing Games</option>
+                <option value="3">Typing Lessons</option>
+            </select>
+        </div>
+    </li>
+        <li>
+            <div class="custom-select" style="width:150px;">
+                <select>
+                    <option value="0" style="display:none;">Instructors</option>
+                    <option value="4">Teachers</option>
+                    <option value="5">Schools & Districts</option>
+                    <option value="6">Homeschool</option>
+                </select>
+            </div>
+        </li>
+        <div class="log">
+        <li id="login">Log In</li>
+        <li id="regist">Sign Up</li>
+         </div>
+     
+    </ul>
+</header>
+<div class="grid">
+<ul>
+    <li>
+        <div class="grid1">
+          <h2>Learn to Type Faster
+            and Easier for Free
+          </h2>  
+         <th>Prepares Students for Standardized Testing</th><br>
+         <th>Powerful District and Classroom Management</th>
+
+        
+        </div>
+    </li>
+    <li>
+        <div class="grid2">
+            <h4>Learn to Type for Free</h4>
+            <h6>Join millions of TypeKro.com users and learn <br>
+                to type at your own pace with gamified <br>
+                lessons and student-led progression.</h6>
+          <button type="test" value="Test" onclick="document.location='Test.html'">Go To Test</button>
+
+        </div>
+    </li>
+    <li>
+        <div class="grid3">
+             <h4>For Instructors and Admins</h4>
+             <h6>Manage class and student-level settings and
+                <br> meet student needs with timed tests, custom <br>
+                 lessons, auto reporting and more.</h6>
+            <button type="signup" value="signup" onclick="document.location='instructorSignUp.html'">Sign Up Now</button>
+
+            
+        </div>
+    </li>
+</ul>
+
+</div>
+<h1>Why You'll Love TypeKro.com</h1>
+<section id="benefits">
+   
+    <div class="bText">
+        <li><h3>Engaging Curriculum </h3></li>
+          <li> <h5>Students learn valuable technology
+            <br> fundamentals - designed by experts for students <br>
+             of every skill level.</h5></li><br>
+
+        <li><h3>Gamified Learning </h3></li><br>
+            <li> <h5>Engage students with fun typing games, <br>
+                interactive lessons, and achievements.</h5></li><br>
+
+        <li><h3>Standardized Test Prep Solution</h3></li>
+        <li><h5>Prepare your students for standardized testing <br>
+            with free response typing lessons.</h5></li>
+    </div>
+    <div class="tutorialVideo">
+        <video autoplay loop muted playsinline  width="99.33%" height="100%">
+            <source src="tutorial.mp4" type="video/mp4">
+        </video> 
+    </div>
+</section>
+ 
+<div class="primaryFooter">
+    <div class="inst">
+    <ul>
+        <li><a href="teachers.html">Teachers</a></li><br>
+        <li><a href="District.html">Schools & Districts</a></li><br>
+        <li><a href="homeschool.html">Homeschool</a></li><br>
+        <li><a href="premium.html">Premium Edition</a></li>
+  
+    </ul>
+</div>
+    <div class="std">
+     <ul>
+        <li><a href="Test.html">Typing Test</a></li><br>
+        <li><a href="TypingGames.html">Typing Games</a></li><br>
+        <li><a href="TypingLessons.html">Typing Lessons</a></li><br>
+        <li><a href="student.html">Students</a></li>
+
+        
+    </ul>
+  
+</div>
+</div>
+</div>
+
+<div id="popup" class="popup">
+    <div class="popup-content">
+       <div class="pname">Log In</div> 
+      <span class="close-btn" id="closePopupBtn">&times;</span>
+      <button type="submit" onclick="document.location='login.html'">Log In as a student</button>
+      <button type="submit" onclick="document.location='Ilogin.html'">Log In as an Instructor</button>
+    </div>
+  </div>
+  <div id="overlay" class="overlay"></div>
+ 
+
+<footer>
+    <img src="footerImage.png" height="300px" width="100%">
+</footer>
+<script src="popup.js"></script>
+<script src="home.js"></script>
+</body>
+
+</html>
