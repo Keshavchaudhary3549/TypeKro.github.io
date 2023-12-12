@@ -1,0 +1,311 @@
+ 
+      li{
+        display:inline-flex;
+        
+    }
+    .log{
+      display: inline-flex;
+      float: right;
+      margin-top: -13px;
+      
+    }
+    #login {
+        margin-right: 50px;
+        height: 45px;
+        width: 90px;
+        font-weight: bolder;
+        border: 1px solid white;
+        border-radius: 10px;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    #regist{
+        margin-right: 100px;
+        height: 45px;
+        width: 90px;
+        font-weight: bolder;
+        border: 1px solid white;
+        border-radius: 10px;
+        justify-content: center;
+        align-items: center;
+
+    }
+    header{
+        background-color:  rgba(66,153,225);
+         height: 70px;
+         width: 99%;
+         position: fixed;
+         margin-top: -10px;
+    }
+   .log li{
+        font-size: 16px;
+        color: white;
+        text-decoration: none;
+
+    }
+
+     .log :hover{
+        background-color: white;
+         color: blue;
+     }
+     .primaryFooter{
+        background-color: rgba(52, 59, 66);
+        height: 300px;
+        width: auto;
+        display: flex;
+        
+     }
+
+     .inst{
+        margin: 50px 10px 10px 120px;
+     }
+      
+    .std{
+       margin: 50px 10px 10px 10px;
+    }
+     .primaryFooter a{
+        font-size: 20px;
+        color: white;
+        margin-top: 18px; 
+        text-decoration: none;
+     }
+
+     h1{
+        display: flex;
+        justify-content: center;
+        font-size: 2.5rem;
+     }
+
+     #benefits{
+        display: flex;
+        height: 460px;
+     }
+     .bText{
+        display: inline;
+        margin-left: 135px;
+     }
+
+     section{
+        padding: 10px 10px 100px 10px;
+     }
+ 
+.tutorialVideo{
+    border: 32px solid rgba(113, 233, 213, 0.266);
+    border-radius: 50px;
+    width: 56%;
+    margin-right: 12%;
+}
+
+h3{
+    color:blue;
+    font-size: 1.4rem;
+
+}
+h5{
+    color:black;
+    font-size: 1.2rem;
+
+}
+
+.grid{
+    height: 500px;
+    width: auto;
+    background-color:  rgb(66 153 225 / 79%);
+    
+   
+
+}
+.grid1{
+    height: 150px;
+    width: 400px;
+    margin-left: 50px;
+    margin-right: 130px;
+    background-color: rgb(66 153 225 / 0%);
+    border-radius: 15px;
+    margin-top: 125px; 
+    color: white;
+}
+  .grid2,.grid3{
+    height: 180px;
+    width: 300px;
+    margin-left: 30px;
+    /* margin-right: 10px; */
+    background-color: white;
+    border: 5px solid white;
+    border-radius: 15px;
+    margin-top: 125px;
+ }
+ h2{
+    font-size: 2.5rem;
+ }
+ .grid2,.grid3 h4{
+    font-size: 1.3rem;
+ }
+
+ button[type="test"]{
+    margin-left: 185px;
+    background-color:#f4c965;
+    border: 1px solid #f4c965;
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+   
+ }
+ button[type="signup"]{
+    margin-left: 180px;
+    margin-top: 33px;
+    background-color:#f4c965;
+    border: 1px solid #f4c965;
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+ }
+ .webName{
+    font-size: 2.5rem;
+    color: white;
+    text-decoration:none;
+    font-weight: 700;
+ }
+ .domain{
+    color: white;
+    font-size: 1.2rem;
+ }
+
+ #blur{
+    margin: 0;
+    padding: 0;
+ }
+
+
+            .custom-select {
+                position: relative;
+                font-family: Arial;
+            }
+    
+            .custom-select select {
+                display: none; /*hide original SELECT element:*/
+            }
+    
+            .select-selected {
+                background-color: #fff;
+            }
+    
+            /*style the arrow inside the select element:*/
+            .select-selected:after {
+                position: absolute;
+                content: "";
+                top: 27px;
+                right: 10px;
+                width: 0;
+                height: 0;
+                border: 6px solid transparent;
+                border-color: white transparent transparent transparent;
+            }
+    
+            /*point the arrow upwards when the select box is open (active):*/
+            .select-selected.select-arrow-active:after {
+                border-color: transparent transparent  white transparent;
+                top: 18px;
+            }
+    
+            /*style the items (options), including the selected item:*/
+            .select-items, .select-selected {
+                color: white;
+                background-color: rgba(66,153,225);
+                padding: 8px 10px;
+                font-size: 20px;
+                cursor: pointer;
+                user-select: none;
+            }
+    
+            div {
+                color: black;
+                padding: 8px 16px;
+                font-size: 15px;
+                cursor: pointer;
+                user-select: none;
+            }
+    
+            /*style items (options):*/
+            .select-items {
+                position: absolute;
+                background-color: #fff;
+                border: 1px solid blue;
+                border-radius: 6px;
+                top: 100%;
+                left: 0;
+                right: 0;
+                z-index: 99;
+            }
+    
+            /*hide the items when the select box is closed:*/
+            .select-hide {
+                display: none;
+            }
+    
+            .select-items div:hover, .same-as-selected {
+                border: 1px solid blue;
+                border-radius: 5px;
+            }
+    
+        
+
+
+
+
+
+            .popup {
+                height: 300px;
+                width: 550px;
+                display: none;
+                position: fixed;
+                top: 42%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                background-color: white;
+                padding: 20px;
+                border-radius: 10px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+                z-index: 2;
+              }
+              
+              .popup-content {
+                padding: 30px 0 0 0;
+                text-align: center;
+            
+              }
+              .pname{
+                font-size: 3rem;
+              }
+              
+              .overlay {
+                display: none;
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.3);
+                z-index: 1;
+              }
+              
+              .close-btn {
+                position: absolute;
+                top: 10px;
+                right: 10px;
+                font-size: 37px;
+                cursor: pointer;
+              }
+            button[type="submit"]{
+              background-color:#ffcf46;
+              border: 1px solid #f4c965;
+              border-radius: 10px;
+              height: 40px;
+              width: 200px;
+              margin: 130px 20px 20px 20px;
+            }
+               
+            
+             
+              
