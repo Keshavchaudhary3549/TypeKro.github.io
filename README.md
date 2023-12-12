@@ -1,3 +1,5 @@
 # TypeKro
 author-keshav chaudhary
-** Typing website **
+<br>
+
+<h2>Typing website</h2>
